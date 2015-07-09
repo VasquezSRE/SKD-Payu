@@ -1,0 +1,26 @@
+{
+    "name": "anvarco/sdkpayu",
+    "description": "PayU's Software Development Kit (SDKs) provides a simple solution for a complex integration. This PSR describes a specification for autoloading classes from file paths",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AnvarStudios.CO Labs",
+            "email": "webmaster@anvarstudios.co",
+            "homepage": "http://www.anvarstudios.co",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+      "email": "webmaster@anvarstudios.co",
+      "wiki": "https://github.com/anvarstudios/SKD-Payu/wiki"
+    },
+    "autoload": {
+      "psr-4": { "PayU\\": "PayU/" }
+    },
+    "minimum-stability": "beta"
+}
